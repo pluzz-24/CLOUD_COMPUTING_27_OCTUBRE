@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="140" role="img" aria-label="Trofeo">
+  <path d="M60 30 H140 V90 C140 112 122 128 100 128 C78 128 60 112 60 90 Z" fill="#ffd166" stroke="#c9a965" stroke-width="4"/>
+  <path d="M60 45 H35 C35 75 45 90 62 95" fill="none" stroke="#c9a965" stroke-width="6" stroke-linecap="round"/>
+  <path d="M140 45 H165 C165 75 155 90 138 95" fill="none" stroke="#c9a965" stroke-width="6" stroke-linecap="round"/>
+  <rect x="92" y="128" width="16" height="28" fill="#c9a965"/>
+  <rect x="68" y="156" width="64" height="16" rx="4" fill="#f3dfb0" stroke="#c9a965" stroke-width="3"/>
+</svg>

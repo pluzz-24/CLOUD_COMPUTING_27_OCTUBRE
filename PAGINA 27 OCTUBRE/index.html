@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina la palabra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="barra">
+    <span class="marca">Adivina la palabra</span>
+    <nav aria-label="Principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#juego">Juego</a>
+      <a href="#resultado">Resultado</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección 1: Inicio -->
+       <section id="inicio">
+      <h1>Adivina la palabra</h1>
+      <p>Lee la adivinanza y elige la opción correcta. Las letras de tu respuesta aparecen como fichas de Scrabble y cada acierto suma el valor de sus fichas.</p>
+      <img src="fichas.svg" alt="Fichas de Scrabble formando la palabra JUEGO">
+    </section>
+
+    <!-- Sección 2: Juego -->
+    <section id="juego">
+      <h2>Juego</h2>
+      <p class="estado"><span id="progreso"></span> | Puntaje: <span id="puntaje">0</span></p>
+      <p id="pista" class="pista"></p>
+      <div id="casillas" class="casillas" aria-hidden="true"></div>
+      <div id="opciones" class="opciones"></div>
+      <p id="mensaje" class="mensaje" aria-live="polite"></p>
+      <button id="siguiente" class="btn" type="button" hidden>Siguiente</button>
+    </section>
+
+    <!-- Sección 3: Resultado -->
+    <section id="resultado">
+      <h2>Resultado</h2>
+      <img src="trofeo.svg" alt="Trofeo">
+      <p id="final">Termina las 5 adivinanzas para ver tu puntaje.</p>
+      <button id="reiniciar" class="btn" type="button">Jugar de nuevo</button>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
